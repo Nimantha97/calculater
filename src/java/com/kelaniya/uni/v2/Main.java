@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.*;
 
+
 public class Main {
     public static void main(String[] args) throws IOException {// kinda wrong
 
@@ -25,7 +26,7 @@ public class Main {
         }
         // read the numbers line by line
         List<String> numbers_Str = Files.readAllLines(
-                Paths.get("calculater\\src\\java\\com\\kelaniya\\uni\\numbers.txt")
+                Paths.get("calculater\\src\\java\\com\\kelaniya\\uni\\v2\\numbers.txt")
         );
 
 
