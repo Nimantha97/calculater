@@ -15,7 +15,12 @@ public class OperationFactory {
         } else if (operator.equals("mul")) {
             operation = new MulOperation();
 
+        } else if (operator.equals("div")) {
+            operation = new DivOperation();
+
         }
+
+
         return operation;
     }
 

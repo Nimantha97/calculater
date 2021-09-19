@@ -23,7 +23,7 @@ public class Main {
 
         UI ui = new UI();
         ui.showMassage("Result is " + result);
-       
+
 
 
     }
